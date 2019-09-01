@@ -40,4 +40,15 @@ Press 1 for LIFO accounting, 2 for FIFO accounting: 2
 You sold 10 shares of Google stock at $200.00 per share for a total of $2000.00 
 You made $1000.00 on the sale. (Original cost: $1000.00) 
 
+Enter name of stock to begin, or "print" to print current portfolio, or "quit" to quit: print
+
+Your Stock Portfolio (DESC. purchase order)
+----------------
+0: [Apple 30 @ $300.0]
+1: [Google 10 @ $200.0]
+2: [Google 10 @ $100.0]
+3: [eBay 30 @ $300.0]
+4: [Amazon 20 @ $200.0]
+5: [Google 0 @ $100.0]
+
 Enter name of stock to begin, or "print" to print current portfolio, or "quit" to quit: quit
