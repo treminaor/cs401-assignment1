@@ -1,4 +1,4 @@
-# assignment1
+# Java Stock Exchange
  CS401 Software Development
 
 Assignment instructions contained in instructions.pdf
