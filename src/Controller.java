@@ -47,7 +47,7 @@ public class Controller {
 				Controller.buyStock(stockSelect, quantity, price);
 			}
 			else {
-				if(indexOfStock(stockSelect) == -1)
+				if(getTotalStock(stockSelect) <= 0)
 				{
 					System.out.println("Error: You do not own any " + stockSelect + " stock!");
 					continue;
@@ -155,27 +155,6 @@ public class Controller {
 		}
 		
 		return total;
-	}
-	
-	public static int indexOfStock(String name) {
-		return indexOfStock(name, true);
-	}
-	public static int indexOfStock(String name, boolean fifo) {
-		int index = -1;
-		
-		if(fifo) {
-			for(int i = allStock.size() - 1; i >= 0; i--) { //FIFO
-				if(allStock.get(i).getName().equals(name) && allStock.get(i).getQuantity() > 0)
-					return i;
-			}
-		}
-		else {
-			for(int i = 0; i < allStock.size(); i++) { //LIFO
-				if(allStock.get(i).getName().equals(name) && allStock.get(i).getQuantity() > 0)
-					return i;
-			}
-		}
-		return index;
 	}
 	
 	public static void printStock() {
