@@ -1,9 +1,7 @@
 # Java Stock Exchange
- CS401 Software Development
+CSUEB CS-401 Software Development SP2019
 
-Assignment instructions contained in instructions.pdf
-
-Example Output: 
+### Example Output
 
 ```
 Java Stock Exchange
@@ -52,3 +50,7 @@ Your Stock Portfolio (DESC. purchase order)
 5: [Google 0 @ $100.0]
 
 Enter name of stock to begin, or "print" to print current portfolio, or "quit" to quit: quit
+```
+
+### Assignment Instructions
+See instructions.pdf
