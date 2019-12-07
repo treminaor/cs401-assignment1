@@ -53,4 +53,4 @@ Enter name of stock to begin, or "print" to print current portfolio, or "quit" t
 ```
 
 ### Assignment Instructions
-See instructions.pdf
+See instructions.pdf.
